@@ -1,0 +1,5 @@
+
+$nome = substr($mail,0,strpos($mail,"@"));
+$msg = "Ciao ".$nome." ti informiamo che la tua email è stata letta !";
+if ($ip != $ip2)
+{

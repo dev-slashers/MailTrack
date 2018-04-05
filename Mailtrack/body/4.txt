@@ -1,0 +1,8 @@
+
+
+$end = 'From: SpyStar@live.it' . "\r\n" .
+    'Reply-To: spystar@live.it' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+
+mail($mail,"Mail Letta !",$msg,$end);
